@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
+db.sqlite3
+venv/
+.env
+
+# Django static & media
+staticfiles/
+media/
+
+# Node / Frontend
+node_modules/
+dist/
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# VSCode / OS files
+.vscode/
+.DS_Store
+
+# Logs
+*.log
