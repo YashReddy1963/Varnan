@@ -21,7 +21,7 @@ MEDIA_URL = '/media/'
 MEDIA_ROOT = BASE_DIR / 'media'
 
 STATICFILES_DIRS = [
-    os.path.join(BASE_DIR, "frontend/dist/assests"),
+    os.path.join(BASE_DIR, "frontend/dist/assets"),
 ]
 
 
