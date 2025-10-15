@@ -9,3 +9,4 @@ langdetect
 aksharamukha
 geojson
 requests
+django-cors-headers
