@@ -24,8 +24,6 @@ STATICFILES_DIRS = [
     os.path.join(BASE_DIR, "frontend/dist/assests"),
 ]
 
-TEMPLATES[0]['DIRS'] = [os.path.join(BASE_DIR, "frontend/dist")]
-
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/5.2/howto/deployment/checklist/
@@ -73,7 +71,7 @@ ROOT_URLCONF = "varnan_backend.urls"
 TEMPLATES = [
     {
         "BACKEND": "django.template.backends.django.DjangoTemplates",
-        "DIRS": [],
+        "DIRS": [os.path.join(BASE_DIR, 'frontend/dist')],
         "APP_DIRS": True,
         "OPTIONS": {
             "context_processors": [
