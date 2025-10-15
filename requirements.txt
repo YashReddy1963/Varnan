@@ -11,3 +11,4 @@ geojson
 requests
 django-cors-headers
 psycopg2-binary
+whitenoise==6.6.0
